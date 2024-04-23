@@ -7,3 +7,7 @@ c
 Lsrc/br/com/treinaweb/estruturadados/listasligadas/ListaDuplamenteLigada.java,5\5\55c86e009291c338af86526a650835e7b9f2331e
 k
 ;src/br/com/treinaweb/estruturadados/conjuntos/Conjunto.java,c\d\cd475a2509ce47b3f6aa5cb37d05ee8e2dfe5dcd
+r
+Bsrc/br/com/treinaweb/estruturadados/listasligadas/ListaLigada.java,2\3\237b8cc8d841610cf4cb706f7c6b70042c7d378d
+f
+6src/br/com/treinaweb/estruturadados/vetores/Vetor.java,e\d\ed476039e3653a57afe0b993028a62ff1e1c2fbc
