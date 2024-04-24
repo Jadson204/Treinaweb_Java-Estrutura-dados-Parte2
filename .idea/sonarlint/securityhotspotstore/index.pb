@@ -11,3 +11,5 @@ f
 6src/br/com/treinaweb/estruturadados/vetores/Vetor.java,e\d\ed476039e3653a57afe0b993028a62ff1e1c2fbc
 b
 2src/br/com/treinaweb/estruturadados/main/Main.java,8\e\8e45439b30643d23645ee1b333c780823b3cfec6
+x
+Hsrc/br/com/treinaweb/estruturadados/espalhamento/TabelaEspalhamento.java,1\d\1daaf4483e214af1702ffee6c2f002528022ad5f
