@@ -1,5 +1,6 @@
 package br.com.treinaweb.estruturadados.main;
 
+import br.com.treinaweb.estruturadados.conjuntos.Conjunto;
 import br.com.treinaweb.estruturadados.filas.Fila;
 import br.com.treinaweb.estruturadados.listasligadas.ListaDuplamenteLigada;
 import br.com.treinaweb.estruturadados.listasligadas.ListaLigada;
@@ -18,6 +19,7 @@ public class Main {
         System.out.println("4. Lista duplmamente ligada");
         System.out.println("5. Pilha");
         System.out.println("6. Filha");
+        System.out.println("7. Conjunto");
         System.out.print("Digte: ");
         Scanner scanner = new Scanner(System.in);
         int opcao = scanner.nextInt();
@@ -40,8 +42,23 @@ public class Main {
             case 6:
                 fazerFila();
                 break;
+            case 7:
+                fazerConjunto();
+                break;
         }
         scanner.close();
+    }
+
+    private static void fazerConjunto() {
+        Conjunto<Pessoa> conjuntoPessoas = new Conjunto<Pessoa>();
+        System.out.println(conjuntoPessoas.estaVazio());
+        System.out.println(conjuntoPessoas.inserir(new Pessoa(1, "Treinaweb")));
+        System.out.println(conjuntoPessoas.toString());
+//      System.out.println(conjuntoPessoas.inserir(new Pessoa(1, "Treinaweb")));
+        System.out.println(conjuntoPessoas.inserir(new Pessoa(2, "Treinaweb")));
+        System.out.println(conjuntoPessoas.toString());
+        System.out.println(conjuntoPessoas.inserirEm(1, new Pessoa(1, "Treinaweb")));
+        System.out.println(conjuntoPessoas.toString());
     }
 
     private static void fazerFila() {

@@ -3,3 +3,15 @@ t
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆí®éùÿÿÿÿ
 o
 java:S1192"YDefine a constant instead of duplicating this literal "PosiÃ§Ã£o invÃ¡lida [%d]" 3 times.(ò«×»
+j
+java:S2259+"HA "NullPointerException" could be thrown; "noAnterior" is nullable here.(º™äËøÿÿÿÿ8òĞ¶€ñ1
+f
+java:S2259g"IA "NullPointerException" could be thrown; "penultimoNo" is nullable here.(±³¬8ôĞ¶€ñ1
+b
+java:S2259n"EA "NullPointerException" could be thrown; "noAtual" is nullable here.(¬Ø§Î8ôĞ¶€ñ1
+b
+java:S2259V"EA "NullPointerException" could be thrown; "noAtual" is nullable here.(òÍ©8ôĞ¶€ñ1
+j
+java:S2259m"HA "NullPointerException" could be thrown; "noAnterior" is nullable here.(¼èû½úÿÿÿÿ8ôĞ¶€ñ1
+b
+java:S2259L"EA "NullPointerException" could be thrown; "noAtual" is nullable here.(òÍ©8õĞ¶€ñ1

@@ -11,12 +11,20 @@ public class Conjunto<T> {
         this.elementos = new ListaLigada<T>();
     }
 
-    public void inserir(T elemento) {
-        this.elementos.inserir(elemento);
+    public boolean inserir(T elemento) {
+        if (elemento != null && !this.contem(elemento)) {
+            this.elementos.inserir(elemento);
+            return true;
+        }
+        return false;
     }
 
-    public void inserirEm(T elemento) {
-        this.elementos.inserirEm(posicao, elemento);
+    public boolean inserirEm(int posicao, T elemento) {
+        if (elemento != null && !this.contem(elemento)) {
+            this.elementos.inserirEm(posicao, elemento);
+            return true;
+        }
+        return false;
     }
 
     public T recuperar(int posicao) {
@@ -47,4 +55,8 @@ public class Conjunto<T> {
         this.elementos.remover(elemento);
     }
 
+    @Override
+    public String toString() {
+        return "Conjunto {elementos=" + elementos + '}';
+    }
 }
