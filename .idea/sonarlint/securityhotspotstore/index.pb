@@ -13,3 +13,7 @@ b
 2src/br/com/treinaweb/estruturadados/main/Main.java,8\e\8e45439b30643d23645ee1b333c780823b3cfec6
 x
 Hsrc/br/com/treinaweb/estruturadados/espalhamento/TabelaEspalhamento.java,1\d\1daaf4483e214af1702ffee6c2f002528022ad5f
+i
+9src/br/com/treinaweb/estruturadados/mapas/Associacao.java,d\f\df8fa91b7fcf45ddd0f1728b7c1436c37df7481e
+c
+3src/br/com/treinaweb/estruturadados/mapas/Mapa.java,7\9\79572eac0a424a3892e58ecd4b0ed52f6f3f3b50
