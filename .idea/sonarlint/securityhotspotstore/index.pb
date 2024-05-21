@@ -21,3 +21,7 @@ i
 9src/br/com/treinaweb/estruturadados/arvorebinaria/No.java,b\5\b50f66f1bbaf5e9a06bfc82b49d2d54ebfab75b7
 o
 ?src/br/com/treinaweb/estruturadados/arvorebinaria/NoArvore.java,6\9\69409db4bff1b35118c66afef17029c131583b0e
+u
+Esrc/br/com/treinaweb/estruturadados/arvorebinaria/NoArvorePessoa.java,6\6\66afb103897edf6d796b6cd4686880f347c75d94
+m
+=src/br/com/treinaweb/estruturadados/arvorebinaria/Arvore.java,3\4\34e8808afaf6834ed32eb800ce0eb0b15785dd66
