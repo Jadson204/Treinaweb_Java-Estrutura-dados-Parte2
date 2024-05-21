@@ -18,8 +18,23 @@ public class Arvore<T>  {
         if (this.raiz == null) {
             this.raiz = no;
         } else if (raiz.peso() < no.peso()) {
-            this.raiz.setNoDireito(no);
+            this.inserir(this.raiz, no);
         }
     }
 
+    private void inserir(NoArvore<T> ref, NoArvore<T> novoNo) {
+        if (ref.peso() < novoNo.peso()) {
+            if (ref.getNoDireito() == null) {
+                ref.setNoDireito(novoNo);
+            } else {
+                inserir(ref.getNoDireito(), novoNo);
+            }
+        } else {
+            if (ref.getNoEsquerdo() == null) {
+                ref.setNoEsquerdo(novoNo);
+            } else {
+                inserir(ref.getNoEsquerdo(), novoNo);
+            }
+        }
+    }
 }
