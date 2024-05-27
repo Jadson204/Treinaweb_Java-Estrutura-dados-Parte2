@@ -74,9 +74,13 @@ public class Main {
         System.out.println(arvorePessoas.toString());
         System.out.println("Busca...");
         NoArvore<Pessoa> noPessoa6 = new NoArvorePessoa(new Pessoa(6, "Treinaweb 6"));
-        NoArvore<Pessoa> noPessoa4 = new NoArvorePessoa(new Pessoa(4, "Treinaweb 4"));
+        // NoArvore<Pessoa> noPessoa4 = new NoArvorePessoa(new Pessoa(4, "Treinaweb 4"));
         System.out.println(arvorePessoas.buscar(noPessoa6));
-        System.out.println(arvorePessoas.buscar(noPessoa4));
+        // System.out.println(arvorePessoas.buscar(noPessoa4));
+        arvorePessoas.inserir(new NoArvorePessoa(new Pessoa(1, "Treinaweb 1")));
+        System.out.println("**************");
+        System.out.println("*** EM ORDEM ***");
+        arvorePessoas.emOrdem();
     }
 
     private static void fazerMapa() {
