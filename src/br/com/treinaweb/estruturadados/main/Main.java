@@ -79,8 +79,11 @@ public class Main {
         // System.out.println(arvorePessoas.buscar(noPessoa4));
         arvorePessoas.inserir(new NoArvorePessoa(new Pessoa(1, "Treinaweb 1")));
         System.out.println("**************");
+        System.out.println(arvorePessoas.toString());
         System.out.println("*** EM ORDEM ***");
         arvorePessoas.emOrdem();
+        System.out.println("*** PRE ORDEM ***");
+        arvorePessoas.preOrdem();
     }
 
     private static void fazerMapa() {
