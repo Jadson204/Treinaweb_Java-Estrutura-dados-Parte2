@@ -17,8 +17,6 @@ i
 9src/br/com/treinaweb/estruturadados/mapas/Associacao.java,d\f\df8fa91b7fcf45ddd0f1728b7c1436c37df7481e
 c
 3src/br/com/treinaweb/estruturadados/mapas/Mapa.java,7\9\79572eac0a424a3892e58ecd4b0ed52f6f3f3b50
-i
-9src/br/com/treinaweb/estruturadados/arvorebinaria/No.java,b\5\b50f66f1bbaf5e9a06bfc82b49d2d54ebfab75b7
 o
 ?src/br/com/treinaweb/estruturadados/arvorebinaria/NoArvore.java,6\9\69409db4bff1b35118c66afef17029c131583b0e
 u
