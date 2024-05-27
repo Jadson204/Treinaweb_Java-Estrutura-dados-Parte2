@@ -69,6 +69,8 @@ public class Main {
         System.out.println(arvorePessoas.toString());
         arvorePessoas.inserir(new NoArvorePessoa(new Pessoa(6, "Treinaweb 6")));
         System.out.println(arvorePessoas.toString());
+        arvorePessoas.inserir(new NoArvorePessoa(new Pessoa(7, "Treinaweb 7")));
+        System.out.println(arvorePessoas.toString());
     }
 
     private static void fazerMapa() {
