@@ -1,6 +1,7 @@
 package br.com.treinaweb.estruturadados.main;
 
 import br.com.treinaweb.estruturadados.arvorebinaria.Arvore;
+import br.com.treinaweb.estruturadados.arvorebinaria.NoArvore;
 import br.com.treinaweb.estruturadados.arvorebinaria.NoArvorePessoa;
 import br.com.treinaweb.estruturadados.conjuntos.Conjunto;
 import br.com.treinaweb.estruturadados.filas.Fila;
@@ -71,6 +72,11 @@ public class Main {
         System.out.println(arvorePessoas.toString());
         arvorePessoas.inserir(new NoArvorePessoa(new Pessoa(7, "Treinaweb 7")));
         System.out.println(arvorePessoas.toString());
+        System.out.println("Busca...");
+        NoArvore<Pessoa> noPessoa6 = new NoArvorePessoa(new Pessoa(6, "Treinaweb 6"));
+        NoArvore<Pessoa> noPessoa4 = new NoArvorePessoa(new Pessoa(4, "Treinaweb 4"));
+        System.out.println(arvorePessoas.buscar(noPessoa6));
+        System.out.println(arvorePessoas.buscar(noPessoa4));
     }
 
     private static void fazerMapa() {
